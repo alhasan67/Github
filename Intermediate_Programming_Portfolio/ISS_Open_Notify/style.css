@@ -1,0 +1,16 @@
+
+* {
+    margin: auto;
+    text-align: center;
+}
+body{
+    background-attachment: fixed;
+    margin: auto;
+    text-align: center;
+}
+
+#avatar img{
+    border-radius: 20px;
+    height: 200px;
+    margin-top: 5%;
+}

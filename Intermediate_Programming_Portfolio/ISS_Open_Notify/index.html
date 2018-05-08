@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+  </head>
+    
+    <head>
+        <title>International Space Station Global Tracker</title>
+        <meta charset="UTF-8">
+    </head>
+    
+    <body>
+        <div id="content">
+            <h1>International Space Station Global Tracker</h1>
+            <p>
+                Using Open Notify API to retrieve Latitude and Longtitude Positions
+            </p>
+        </div>
+    </body>
+    <script>
+        document.onmousemove = function(event){
+            document.body.style.backgroundPosition = ((event.pageX * -1) / 20)+"px "+((event.pageY * -1) / 20)+"px";
+        };
+    </script>
+    <body>
+    <script src="script.js"></script>
+  </body>
+</html>
+
